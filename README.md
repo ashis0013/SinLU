@@ -4,4 +4,4 @@ We propose a new non-linear trainable activation function, called Sinu-sigmoidal
 
 <img src="https://user-images.githubusercontent.com/31564734/121135309-00ba1280-c852-11eb-819f-35bc2c2aac03.jpg" width="600px"/>
 
-&sigma
+&sigma;
