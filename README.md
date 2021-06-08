@@ -13,6 +13,6 @@ A more useful shape of the activation function can be devised by the introductio
 
 <img src="https://user-images.githubusercontent.com/31564734/121140274-4927ff00-c857-11eb-906e-f118da50eb8c.png" width="300px"/>
 
-The parameter *a* denotes the amplitude of the sine function which basically determines the participation of the sinusoid in the activation function. A very high value of *a* may lead to a shape that is nowhere close to ReLU like function. The parameter *b* determines the frequency of the sine wave. The figure below gives an idea about how the parameters shape the SinLU curve. This can be very easily avoided by proper initialization and hyperparameter controlled training. We start with the value 1 for both *a* and *b* and train these parameters with the same learning rate as used for the rest of the network.
+The parameter *a* denotes the amplitude of the sine function which basically determines the participation of the sinusoid in the activation function. The parameter *b* determines the frequency of the sine wave. The figure below gives an idea about how the parameters shape the SinLU curve. A very high value of *a* may lead to a shape that is nowhere close to ReLU like function. This can be very easily avoided by proper initialization and hyperparameter controlled training. We start with the value 1 for both *a* and *b* and train these parameters with the same learning rate as used for the rest of the network.
 
 <img src="https://user-images.githubusercontent.com/31564734/121140616-ade35980-c857-11eb-8f7d-9dc2a9356567.jpg" width="700px" />
