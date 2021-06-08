@@ -8,8 +8,11 @@ class Net(nn.Module):
         self.fc = nn.Sequential(
             nn.Linear(28*28,512),
             sinlu.SinLU(),
-            nn.Linear(512,num_classes)
+            nn.Linear(512,10)
         )
     def forward(self,x):
         x = x.view(-1,28*28)
         return self.fc(x)
+
+net = Net()
+print(net)
