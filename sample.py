@@ -15,4 +15,3 @@ class Net(nn.Module):
         return self.fc(x)
 
 net = Net()
-print(net)
